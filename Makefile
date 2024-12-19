@@ -13,3 +13,7 @@ kubectl-apply-mongo-config:
 .PHONY: kubectl-apply-mongo-secret
 kubectl-apply-mongo-secret:
 	kubectl apply -f mongo-secret.yaml
+
+.PHONY: kubectl-apply-mongo
+kubectl-apply-mongo:
+	kubectl apply -f mongo.yaml
