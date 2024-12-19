@@ -21,3 +21,7 @@ kubectl-apply-mongo:
 .PHONY: kubectl-apply-webapp
 kubectl-apply-webapp:
 	kubectl apply -f webapp.yaml
+
+.PHONY: kubectl-get-all
+kubectl-get-all:
+	kubectl get all
