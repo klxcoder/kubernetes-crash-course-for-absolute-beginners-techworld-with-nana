@@ -17,3 +17,7 @@ kubectl-apply-mongo-secret:
 .PHONY: kubectl-apply-mongo
 kubectl-apply-mongo:
 	kubectl apply -f mongo.yaml
+
+.PHONY: kubectl-apply-webapp
+kubectl-apply-webapp:
+	kubectl apply -f webapp.yaml
