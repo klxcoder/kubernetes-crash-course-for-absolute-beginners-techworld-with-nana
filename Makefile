@@ -33,3 +33,7 @@ kubectl-get-configmap:
 .PHONY: kubectl-get-secret
 kubectl-get-secret:
 	kubectl get secret
+
+.PHONY: minikube-service-webapp-service
+minikube-service-webapp-service:
+	minikube service webapp-service
