@@ -25,3 +25,7 @@ kubectl-apply-webapp:
 .PHONY: kubectl-get-all
 kubectl-get-all:
 	kubectl get all
+
+.PHONY: kubectl-get-configmap
+kubectl-get-configmap:
+	kubectl get configmap
