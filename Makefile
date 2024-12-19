@@ -29,3 +29,7 @@ kubectl-get-all:
 .PHONY: kubectl-get-configmap
 kubectl-get-configmap:
 	kubectl get configmap
+
+.PHONY: kubectl-get-secret
+kubectl-get-secret:
+	kubectl get secret
